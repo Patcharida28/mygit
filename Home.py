@@ -18,11 +18,11 @@ html_8 = """
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.header("A cat")
+   st.header("Npru")
    st.image("./pic/npru.png")
 
 with col2:
-   st.header("A dog")
+   st.header("Patcharida")
    st.image("./pic/patch.jpg")
 
 with col3:
@@ -79,9 +79,13 @@ if st.button("ทำนายผล"):
 
    if out[0] == 'Setosa':
         st.image("./pic/Setosa.jpg")
+   if out[0] == 'versicolor':
+        st.image("./pic/versicolor.jpg")
+   
+   
    else:       
     st.writ('xxx')    
-   #st.button("ไม่แสดงข้อมูล")
+
 else:
    st.write("ไม่แสดงข้อมูล")
 
