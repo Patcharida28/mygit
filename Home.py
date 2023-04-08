@@ -19,14 +19,14 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("NPRU")
-   st.image("./pic/npru.png")
+   st.image("./pic/Npru-logo.png")
 
 with col2:
    st.header("Patcharida")
    st.image("./pic/patch.jpg")
 
 with col3:
-   st.header("An owl")
+   st.header("CS-NPRU")
    st.image("./pic/CS-npru.jpg")
 
 
