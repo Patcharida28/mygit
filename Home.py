@@ -19,7 +19,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("A cat")
-   st.image("https://static.streamlit.io/pic/npru.jpg")
+   st.image("https://static.streamlit.io/pic/npru.png")
 
 with col2:
    st.header("A dog")
@@ -79,7 +79,7 @@ if st.button("ทำนายผล"):
 
    if out[0] == 'Setosa':
     st.image("./pic/Setosa.jpg")
-    if out[1] == 'versicolor':
+    else if out[1] == 'versicolor':
         st.image("./pic/versicolor.jpg")
     else:   
         st.writ('xxx')    
