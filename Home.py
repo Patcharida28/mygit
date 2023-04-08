@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 #st.header("Patcharida")
 st.image("./pic/npru.png")
 html_8 = """
-<div style="background-color:#903A27;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<div style="background-color:#42E4E4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายข้อมูลดอกไม้</h5></center>
 </div>
 """
