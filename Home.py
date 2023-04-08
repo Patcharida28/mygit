@@ -64,10 +64,10 @@ if st.button("ทำนายผล"):
 
    if out[0] == 'Setosa':
     st.image("./pic/Setosa.jpg")
-    if out[0] == 'versicolor':
+    if out[1] == 'versicolor':
         st.image("./pic/versicolor.jpg")
-   else:   
-    st.writ('xxx')    
+    else:   
+        st.writ('xxx')    
    #st.button("ไม่แสดงข้อมูล")
 else:
    st.write("ไม่แสดงข้อมูล")
