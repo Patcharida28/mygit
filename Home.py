@@ -83,8 +83,7 @@ if st.button("ทำนายผล"):
         st.image("./pic/versicolor.jpg")
    
    
-   else:       
-    st.writ('xxx')    
+
 
 else:
    st.write("ไม่แสดงข้อมูล")
