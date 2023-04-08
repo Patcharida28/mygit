@@ -27,7 +27,7 @@ with col2:
 
 with col3:
    st.header("An owl")
-   st.image("https://static.streamlit.io/examples/owl.jpg")
+   st.image("./pic/CS-npru.jpg")
 
 
 st.markdown(html_8, unsafe_allow_html=True)
