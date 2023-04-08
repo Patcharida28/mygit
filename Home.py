@@ -18,7 +18,7 @@ html_8 = """
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.header("Npru")
+   st.header("NPRU")
    st.image("./pic/npru.png")
 
 with col2:
@@ -78,13 +78,10 @@ if st.button("ทำนายผล"):
    out=Knn_model.predict(x_input)
 
    if out[0] == 'Setosa':
-        st.image("./pic/Setosa.jpg")
-   if out[1] == 'versicolor':
-        st.image("./pic/versicolor.jpg")
-   
-   
-
-
+        st.image("./pic/setosa.jpg")
+   else:       
+    st.writ('xxx')    
+   #st.button("ไม่แสดงข้อมูล")
 else:
    st.write("ไม่แสดงข้อมูล")
 
